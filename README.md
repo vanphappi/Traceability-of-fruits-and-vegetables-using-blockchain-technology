@@ -12,3 +12,23 @@
 ![](./Database/usecase.jpg)
 ### Sequence diagram farmer
 ![](./Database/seq_famer.jpg)
+### Sequence diagram buyer
+![](./Database/seq_buy.jpg)
+### Sequence diagram transporter
+![](./Database/seq_tran.jpg)
+### Sequence diagram packager
+![](./Database/seq_pack.jpg)
+### Sequence diagram distributor
+![](./Database/seq_dis.jpg)
+### Sequence diagram retailer
+![](./Database/seq_ret.jpg)
+### Sequence diagram for raft consensus
+![](./Database/seq_raft.jpg)
+### Sequence diagram consumer access 
+![](./Database/seq_con.jpg)
+### Class diagram
+![](./Database/class_dia.jpg)
+
+
+# Cơ sở dữ liệu
+![](./Database/csdl.jpg)
