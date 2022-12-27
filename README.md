@@ -1,6 +1,6 @@
 # Tổng quan
-Tên đề tài : Ứng dụng Blockchain trong truy xuất nguồn gốc chuỗi cung ứng (Rau củ quả)
-Hoạch định nguồn lực doanh nghiệp - IS336.M11.HTCL
+- Tên đề tài : Ứng dụng Blockchain trong truy xuất nguồn gốc chuỗi cung ứng (Rau củ quả)
+- Hoạch định nguồn lực doanh nghiệp - IS336.M11.HTCL
 - Giảng viên hướng dẫn: Ths. Đỗ Duy Thanh
 - Nhóm sinh viên thực hiện :
     + Huỳnh Văn Pháp - MSSV: 19521987 (Nhóm trưởng, Code triển khai ứng dụng)
