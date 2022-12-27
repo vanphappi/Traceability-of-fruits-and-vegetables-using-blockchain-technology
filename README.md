@@ -32,3 +32,45 @@
 
 # Cơ sở dữ liệu
 ![](./Database/csdl.jpg)
+
+# Triển khai smart contract trên Remix Ethereum
+## Import account Ganache vào ví Metamask
+### Mở Ganache, chọn Quickstart, sau đó copy RPC Server
+![](./Database/ganache.jpg)
+### Mở ví Metamask, vào phần Setting -> Networks
+![](./Database/metamask.jpg)
+### Tiến hành điền RPC Server của Ganache,chain ID và tên Network(Tùy ý) sau đó lưu lại. Vậy là chúng ta đã kết nối được Ganache với Metamask
+![](./Database/metamask_1.jpg)
+### Tiến hành Import account Ganache vào Metamask chọn Import accout
+![](./Database/metamask_2.jpg)
+### Vào Ganache, lấy ngẫu nhiên 1 trong 10 accout đã được Ganache cho sẵn, sau đó lấy Private Key
+![](./Database/ganache_1.jpg)
+### Dán vào phần Past your private key string here:
+![](./Database/metamask_3.jpg)
+### Như vậy, ví của chúng ta đã có 100ETH dùng nội bộ
+![](./Database/metamask_4.jpg)
+## Deploy trên môi trường ảo Testnet: Remix
+### Vào trang https://remix.ethereum.org/
+![](./Database/smart.jpg)
+### Tạo smart contract của dự án chúng ta trên remix
+![](./Database/smart_1.jpg)
+### Nhấn vào biểu tượng như hình, sau đó chọn compile để kiểm tra lỗi của contract
+![](./Database/smart_2.jpg)
+### Compile thành công, nhấp vào biểu tượng như hình để Deploy và chạy Transactions
+![](./Database/smart_3.jpg)
+### Ở phần Environment, chọn Injected web3 để kết nối với ví Metamask
+![](./Database/smart_4.jpg)
+### Sau khi kết nối thành công, tiếp tục chọn Deploy để Confirm giao dịch
+![](./Database/smart_5.jpg)
+### Copy địa chỉ hợp đồng và account
+![](./Database/smart_6.jpg)
+### Vào project trên Visual studio code, đến file app.js sau đó xóa và past để thay đổi địa chỉ hợp đồng rồi lưu lại
+![](./Database/smart_7.jpg)
+### Vào file user.json để thay đổi lại Account mới rồi lưu lại
+![](./Database/smart_8.jpg)
+### Dùng XAMPP để chạy giao diện người dùng. Nhập Tên đăng nhập và mật khẩu được thiết kế trong Cơ sở dữ liệu để tiến hành đăng nhập
+![](./Database/smart_9.jpg)
+### Tiến hành kiểm tra thử các chức năng. Vậy là đã thành công.
+![](./Database/smart_10.jpg)
+### Đồng thời, Account Ganache cũng mất đi một lượng ETH để thực hiện giao dịch trên
+![](./Database/smart_11.jpg)
